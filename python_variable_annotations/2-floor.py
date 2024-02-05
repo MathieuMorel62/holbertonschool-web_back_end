@@ -2,7 +2,7 @@
 """ Basic annotations - floor """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """Returns the floor value of a given number.
 
     Args:
