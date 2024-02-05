@@ -1,0 +1,6 @@
+# Main files
+*-main.py
+
+# caches
+.mypy_cache
+__pycache__
