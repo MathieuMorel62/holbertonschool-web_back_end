@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """ Function safe_first_element """
 
-from typing import Any, Optional, Sequence
+from typing import Sequence, Union, Any
 
 
-def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Return the first element of a sequence if it exists,
     otherwise return None.
 
