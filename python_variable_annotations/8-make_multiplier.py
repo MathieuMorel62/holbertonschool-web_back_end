@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ Create a multiplier function """
 
-
 from typing import Callable
 
 
