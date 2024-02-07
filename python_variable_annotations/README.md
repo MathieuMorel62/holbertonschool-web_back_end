@@ -1,4 +1,6 @@
-# Python - Variable Annotations
+# <p align="center">Python - Variable Annotations</p>
+
+<img src='https://www.algorystcorner.com/content/images/size/w1200/2023/02/Variable-annotation-banner.png'>
 
 ## Description
 This project focuses on learning and implementing variable annotations in Python. It aims to enhance code readability, facilitate maintenance and debugging, while introducing static typing practices in a dynamically typed language like Python. Participants will gain skills in annotating basic and complex types, and will use tools like mypy for type checking.
