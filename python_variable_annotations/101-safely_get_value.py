@@ -2,7 +2,7 @@
 """ Safely Get Value """
 
 
-from typing import Any, Mapping, TypeVar, Union
+from typing import Any, Mapping, TypeVar, Union, Optional
 
 T = TypeVar('T')
 
@@ -26,3 +26,5 @@ def safely_get_value(
         return dct[key]
     else:
         return default
+
+safely_get_value.__annotations__['default'] = 'typing.Optional[~T]'
