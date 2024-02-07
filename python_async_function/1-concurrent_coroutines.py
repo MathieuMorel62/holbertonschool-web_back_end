@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """ The basics of async """
 
+from typing import List
+
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(n: int, max_delay: int) -> float:
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """Waits for random delays and returns a sorted list of the delays.
 
     Args:
