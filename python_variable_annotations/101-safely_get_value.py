@@ -29,4 +29,5 @@ def safely_get_value(
     else:
         return default
 
+
 safely_get_value.__annotations__['default'] = 'typing.Optional[~T]'
