@@ -1,4 +1,6 @@
-# Python - Async Comprehension
+# <p align="center">Python - Async Comprehension</p>
+
+![async comp](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/2c7e8d24-15d2-47c0-adea-f617bcc5ddb6)
 
 ## Description
 This project focuses on implementing and utilizing asynchronous generators and comprehensions in Python. It aims to provide a deep understanding of these advanced Python concepts, highlighting their utility in asynchronous data processing and performance enhancement in Python applications.
