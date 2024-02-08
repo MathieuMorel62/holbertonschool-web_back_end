@@ -13,3 +13,5 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Python_async_comprehension**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/python_async_comprehension): A project demonstrating the use of asynchronous understanding in Python to effectively process data.
 
+## Contact
+- LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
