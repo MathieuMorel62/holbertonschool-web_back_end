@@ -1,14 +1,14 @@
-# Caching Project
+# <p align="center">Caching Project</p>
 
-![Project Image](attachment://file-NMjU89LFVcMZG60YDe9EDhEp)
+![caching](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/645b17f1-8143-43c8-a303-ec7ac0485ebb)
 
 ## 📝 Description
 The "Caching Project" is designed to teach and implement various caching algorithms such as **FIFO**, **LIFO**, **LRU**, **MRU**, and **LFU**. This advanced caching system uses data structures and algorithms optimized for enhancing data caching efficiency and performance.
 
 ## 📚 Resources
 - [Cache Replacement Policies](https://en.wikipedia.org/wiki/Cache_replacement_policies#Most_Recently_Used_%28MRU%29)
-- [Cache Replacement Policies - FIFO, LIFO...](https://www.youtube.com/watch?v=7lxAfszjy68)
-- [Cache Replacement Policies - LRU, LFU...](https://www.youtube.com/watch?v=_Hh-NcdbHCY)
+- [Cache Replacement Policies (video) - FIFO, LIFO...](https://www.youtube.com/watch?v=7lxAfszjy68)
+- [Cache Replacement Policies (video) - LRU, LFU...](https://www.youtube.com/watch?v=_Hh-NcdbHCY)
 - [Python Cache](https://oxylabs.io/blog/python-cache-how-to-use-effectively)
 
 ## 🛠️ Technologies and Tools Used
