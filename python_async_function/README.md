@@ -6,9 +6,8 @@ The **Async Python project** is designed to explore and master advanced concepts
 ## Resources
 - [Official Python Documentation on Async IO](https://docs.python.org/3/library/asyncio.html)
 - [Complete Guide to Async IO in Python](https://realpython.com/async-io-python/)
-- [Asyncio Walkthrough](https://asyncio.readthedocs.io/en/latest/)
+- [Random.uniform](https://docs.python.org/3/library/random.html#random.uniform)
 - [Python 3.7 Documentation](https://docs.python.org/3.7/)
-- [GitHub - Async Code Examples](https://github.com/python/asyncio)
 
 ## Technologies and Tools Used
 - **Python 3.7**: Chosen for its robustness and capabilities in asynchronous programming.
