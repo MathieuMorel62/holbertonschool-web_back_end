@@ -10,6 +10,19 @@ from collections import defaultdict, OrderedDict
 
 
 class LFUCache(BaseCaching):
+    """
+    LFUCache class represents a Least Frequently Used (LFU) cache.
+
+    Attributes:
+        freq: A dictionary that keeps track of the frequency of each key.
+        freq_items: A dictionary that stores the items for each frequency.
+        min_freq: An integer representing the minimum frequency in the cache.
+
+    Methods:
+        __init__: Initializes an instance of LFUCache.
+        put: Adds an item to the cache with the given key.
+        get: Retrieves the item associated with the given key from the cache.
+    """
     def __init__(self):
         """Initialize an instance of LFUCache."""
         super().__init__()
@@ -21,6 +34,10 @@ class LFUCache(BaseCaching):
         """
         Add an item to the cache with the given key.
         If the cache is full, remove the least frequently used item.
+
+        Args:
+            key: The key of the item to be added.
+            item: The item to be added to the cache.
         """
         if key is None or item is None:
             return
@@ -47,6 +64,12 @@ class LFUCache(BaseCaching):
         """
         Retrieve the item associated with the given key from the cache.
         If the key is not found in the cache, return None.
+
+        Args:
+            key: The key of the item to be retrieved.
+
+        Returns:
+            The item associated with the given key, or None if not found.
         """
         if key is None or key not in self.cache_data:
             return None
