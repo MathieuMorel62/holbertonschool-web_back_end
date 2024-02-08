@@ -1,5 +1,7 @@
 # Async Python
 
+![async](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/071cc2a4-58bd-4924-b27d-3e3bf0380362)
+
 ## Description
 The **Async Python project** is designed to explore and master advanced concepts of asynchronous programming in Python. This project covers key techniques such as using the `async` and `await` syntax, managing coroutines, creating `asyncio` tasks, and integrating the `random` module. It aims to provide a practical understanding of asynchronous operations, essential for the development of high-performance and efficient software.
 
