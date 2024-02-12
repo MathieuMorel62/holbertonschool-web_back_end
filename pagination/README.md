@@ -1,4 +1,6 @@
-# Pagination
+# <p align="center">Pagination</p>
+
+![pagination](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/50986c0d-2085-436d-a078-f135a4ca4485)
 
 ## 📝 Description
 This project implements pagination features on a database of popular baby names. It uses Python and focuses on several aspects of pagination, including simple and hypermedia methods, as well as deletion-resilient pagination. The project aims to improve the understanding of pagination techniques in web applications.
