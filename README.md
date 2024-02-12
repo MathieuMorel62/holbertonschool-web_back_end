@@ -15,5 +15,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/caching): This project focuses on learning different caching algorithms, including FIFO, LIFO, LRU, MRU, and LFU. Through Python scripts, various caching systems are implemented, each with specific characteristics and eviction policies.
 
+- [**Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/pagination): A project covering data pagination, including basic pagination techniques with page and page size parameters, pagination using hypermedia metadata, and data deletion-resistant pagination
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
