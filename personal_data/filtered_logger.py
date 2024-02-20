@@ -60,7 +60,6 @@ def filter_datum(
         str: The redacted log message.
     """
     for field in fields:
-        pattern = f"(?<=;){field}=[^;]*?(?={separator})"
-        message = re.sub(pattern, f"{field}={redaction}", message)
-
-    return message.replace(f"{separator}", f"{separator} ")
+        pattern = "{}=[^;]*?{}".format(field, separator)
+        message = re.sub(pattern, " {}={}{}".format(field, redaction, separator), message)
+    return message
