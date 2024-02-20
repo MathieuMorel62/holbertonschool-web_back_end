@@ -33,10 +33,12 @@ class RedactingFormatter(logging.Formatter):
         Returns:
             str: The formatted log message.
         """
+        formatted_message = super().format(record)
+        formatted_message = formatted_message.replace(';', '; ')
         return filter_datum(
             self.fields,
             self.REDACTION,
-            super().format(record),
+            formatted_message,
             self.SEPARATOR
         )
 
@@ -60,6 +62,6 @@ def filter_datum(
         str: The redacted log message.
     """
     for field in fields:
-        pattern = "{}=[^;]*?{}".format(field, separator)
-        message = re.sub(pattern, " {}={}{}".format(field, redaction, separator), message)
+        pattern = f"{field}=[^;]*?{separator}"
+        message = re.sub(pattern, f"{field}={redaction}{separator}", message)
     return message
