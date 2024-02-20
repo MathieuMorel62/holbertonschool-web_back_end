@@ -8,3 +8,6 @@ __pycache__
 
 # Editor config file
 .editorconfig
+
+# SQL files
+main.sql
