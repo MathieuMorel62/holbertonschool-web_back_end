@@ -62,5 +62,5 @@ def filter_datum(
     for field in fields:
         pattern = f"{field}=.*?{separator}"
         message = re.sub(pattern, (
-            f" {field}={redaction}{separator}"), message)
+            f"{field}={redaction}{separator}"), message)
     return message
