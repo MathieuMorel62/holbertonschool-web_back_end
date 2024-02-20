@@ -5,7 +5,7 @@ from typing import List
 import re
 
 
-def filter_datum(fields: List[str], redaction: str, message: str, separator: str) -> str:
+def filter_datum(fields, redaction, message, separator):
     """ Function that returns the log message obfuscated """
     for field in fields:
         pattern = (f"{field}=.*?{separator}")
