@@ -5,7 +5,8 @@ from typing import List
 import re
 import logging
 
-PII_FIELDS = ("name","email", "phone", "ssn", "password")
+PII_FIELDS = ("name", "email", "phone", "ssn", "password")
+
 
 class RedactingFormatter(logging.Formatter):
     """Custom formatter for redacting sensitive information in log messages."""
