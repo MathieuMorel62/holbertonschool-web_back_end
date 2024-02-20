@@ -34,7 +34,6 @@ class RedactingFormatter(logging.Formatter):
             str: The formatted log message.
         """
         formatted_message = super().format(record)
-        formatted_message = formatted_message.replace(';', '; ')
         return filter_datum(
             self.fields,
             self.REDACTION,
