@@ -116,7 +116,7 @@ cd personal_data
 - **Password validation**: `is_valid` function to compare encrypted passwords with user entries.
 - **Secure connection to the database**: Use of environment variables to store database identifiers.
 
-📝 Task List
+## 📝 Task List
 
 0. [**Regex-ing**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Obfuscation of PII fields in logs.
 1. [**Log formatter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Creation of custom log trainers.
