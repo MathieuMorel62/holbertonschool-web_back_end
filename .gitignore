@@ -13,3 +13,6 @@ __pycache__
 
 # SQL files
 main.sql
+
+# User files
+.db_User.json
