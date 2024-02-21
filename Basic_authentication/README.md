@@ -10,6 +10,8 @@ This project aims to implement a basic authentication system in an API. It inclu
 - [HTTP header Authorization](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)
 - [Flask](https://palletsprojects.com/p/flask/)
 - [Base64 - concept](https://en.wikipedia.org/wiki/Base64)
+- [Custom Error Pages](https://flask.palletsprojects.com/en/1.1.x/patterns/errorpages/)
+- [Before Request](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Blueprint.before_request)
 
 ## 🛠️ Technologies and Tools Used
 - `Python 3.7`: Main programming language.
