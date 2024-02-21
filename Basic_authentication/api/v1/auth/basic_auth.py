@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """ BasicAuth module """
 
-from api.v1.auth.auth import Auth
 import base64
-from typing import Tuple
+from typing import Tuple, TypeVar
+from api.v1.auth.auth import Auth
+from models.user import User
 
 
 class BasicAuth(Auth):
@@ -63,7 +64,6 @@ class BasicAuth(Auth):
         Returns:
             tuple: A tuple containing the username and password extracted
                 from the authorization header.
-
         """
         if decoded_base64_authorization_header is None:
             return None, None
@@ -72,3 +72,22 @@ class BasicAuth(Auth):
         if ':' not in decoded_base64_authorization_header:
             return None, None
         return tuple(decoded_base64_authorization_header.split(':', 1))
+
+    def user_object_from_credentials(
+            self, user_email: str, user_pwd: str) -> TypeVar('User'):
+        """"""
+        if user_email is None:
+            return None
+        if not isinstance(user_email, str):
+            return None
+        if user_pwd is None:
+            return None
+        if not isinstance(user_pwd, str):
+            return None
+        users = User.search({"email": user_email})
+        if not users:
+            return
+        user = users[0]
+        if not user.is_valid_password(user_pwd):
+            return None
+        return user
