@@ -1,5 +1,7 @@
 # <p align="center">Basic Authentication</p>
 
+<img width="100%" alt="image" src="https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/180a7405-f038-4663-852a-1e01dfc5ba16">
+
 # 📝 Description
 This project aims to implement a basic authentication system in an API. It includes the creation of authentication classes, error management, the use of Base64 for encoding authentication information, and securing API routes. This project provides an in-depth understanding of the authentication mechanism in web applications.
 
