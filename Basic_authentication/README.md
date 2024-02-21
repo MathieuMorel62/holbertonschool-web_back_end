@@ -1,4 +1,4 @@
-# Basic authentication
+# <p align="center">Basic Authentication</p>
 
 # 📝 Description
 This project aims to implement a basic authentication system in an API. It includes the creation of authentication classes, error management, the use of Base64 for encoding authentication information, and securing API routes. This project provides an in-depth understanding of the authentication mechanism in web applications.
