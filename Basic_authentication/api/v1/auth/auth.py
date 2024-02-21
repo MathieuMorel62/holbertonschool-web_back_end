@@ -37,3 +37,28 @@ class Auth:
         current_user method
         """
         return None
+
+    def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
+        """
+        Check if authentication is required for a given path.
+
+        Args:
+            path (str): The path to check.
+            excluded_paths (List[str]): A list of paths that are
+                excluded from authentication.
+
+        Returns:
+            bool: True if authentication is required, False otherwise.
+        """
+        if path is None or not excluded_paths:
+            return True
+        if path[-1] != '/':
+            path += '/'
+
+        for pattern in excluded_paths:
+            if pattern.endswith('*'):
+                if path.startswith(pattern[:-1]):
+                    return False
+            elif pattern == path:
+                return False
+        return True
