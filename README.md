@@ -19,5 +19,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Personal Data**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/personal_data): Advanced management of personal data security using Python, featuring functionalities like PII obfuscation in logs and secure password hashing practices.
 
+- [**Basic Authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Basic_authentication): This project aims to implement a basic authentication system in an API. It includes the creation of authentication classes, error management, the use of Base64 for encoding authentication information, and securing API routes. This project provides an in-depth understanding of the authentication mechanism in web applications.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
