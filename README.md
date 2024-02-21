@@ -17,5 +17,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/pagination): A project covering data pagination, including basic pagination techniques with page and page size parameters, pagination using hypermedia metadata, and data deletion-resistant pagination
 
+- [**Personal Data**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/personal_data): Advanced management of personal data security using Python, featuring functionalities like PII obfuscation in logs and secure password hashing practices.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
