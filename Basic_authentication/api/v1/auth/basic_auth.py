@@ -111,14 +111,23 @@ class BasicAuth(Auth):
         Returns the current user based on the provided request.
 
         Args:
-            request (Request): The request object containing the authorization header.
+            request (Request): The request object containing
+                the authorization header.
 
         Returns:
-            User: The user object corresponding to the provided credentials.
-
+            User: The user object corresponding to the provided
+                credentials.
         """
-        header_value = self.authorization_header(request)
-        base64_auth_header = self.extract_base64_authorization_header(header_value)
-        decoded_base64 = self.decode_base64_authorization_header(base64_auth_header)
+        header = self.authorization_header(request)
+        if header is None:
+            return None
+        base64_auth = self.extract_base64_authorization_header(header)
+        if base64_auth is None:
+            return None
+        decoded_base64 = self.decode_base64_authorization_header(base64_auth)
+        if decoded_base64 is None:
+            return None
         user_credentials = self.extract_user_credentials(decoded_base64)
+        if user_credentials is None:
+            return None
         return self.user_object_from_credentials(*user_credentials)
