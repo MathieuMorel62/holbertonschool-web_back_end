@@ -5,7 +5,6 @@ from api.v1.views import app_views
 from flask import abort, jsonify, request
 from models.user import User
 import os
-from api.v1.auth.session_auth import SessionAuth, Auth
 
 
 @app_views.route('/auth_session/login', methods=['POST'], strict_slashes=False)
@@ -35,3 +34,18 @@ def login():
             user_dict = jsonify(user.to_json())
             user_dict.set_cookie(sesion_name, sesion_id)
             return user_dict
+
+
+@app_views.route(
+        '/auth_session/logout', methods=['DELETE'], strict_slashes=False)
+def logout():
+    """
+    Logs out the user by destroying the session.
+
+    Returns:
+        A tuple containing an empty JSON response and a status code of 200.
+    """
+    from api.v1.app import auth
+    if not auth.destroy_session(request):
+        abort(404)
+    return jsonify({}), 200
