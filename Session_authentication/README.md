@@ -1,5 +1,7 @@
 # <p align="center">Session Authentication</p>
 
+![session auth](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/15be0493-81b6-4a68-8b99-7b79e2f05e4f)
+
 ## 📝 Description
 This project implements a session authentication system for a web application. It consists of creating, managing and expiring session identifiers, as well as authenticating users through session cookies. Key points include adding an endpoint to retrieve the authenticated user object, creating a session, retrieving a user ID based on a session ID, and managing session cookies.
 
@@ -63,9 +65,9 @@ python3 -m flask run
 ## 📂 Project Structure
 - **app.py**: Main file to run the Flask application.
 - **auth.py**: Contains the authentication logic.
-- **user.py**: Contains the user management logic.
+- **users.py**: Contains the user management logic.
 - **session_auth.py**: Contains the session authentication logic.
-- **session_db.py**: Contains the session database logic.
+- **session_db_auth.py**: Contains the session database logic.
 - **requirements.txt**: Contains the list of dependencies for the project.
 
 ## 📝 List of Tasks to be carried out
