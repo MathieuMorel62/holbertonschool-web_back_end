@@ -2,6 +2,7 @@
 """ Session authentication view """
 
 from flask import request, jsonify
+from api.v1.auth.session_auth import SessionAuth
 from api.v1.views import app_views
 from models.user import User
 from os import getenv
@@ -29,22 +30,23 @@ def login():
     """
     email = request.form.get('email')
     if not email:
-        return jsonify({"error": "email missing"}), 400
+        return jsonify({ "error": "email missing" }), 400
 
     password = request.form.get('password')
     if not password:
-        return jsonify({"error": "password missing"}), 400
+        return jsonify({ "error": "password missing" }), 400
 
-    user = User.search({'email': email})
-    if not user:
-        return jsonify({"error": "no user found for this email"}), 404
+    users = User.search({'email': email})
+    if not users:
+        return jsonify({ "error": "no user found for this email" }), 404
 
-    if not user[0].is_valid_password(password):
-        return jsonify({"error": "wrong password"}), 401
-
-    from api.v1.app import auth
-    session_id = auth.create_session(user.id)
-    user_json = jsonify(user.to_json())
-    user_json.set_cookie(getenv('SESSION_NAME'), session_id)
-
-    return user_json
+    for user in users:
+        if not user.is_valid_password(password):
+            return jsonify({ "error": "wrong password" }), 401
+        else:
+            from api.v1.app import auth
+            session_id = auth.create_session(user.id)
+            session_name = getenv('SESSION_NAME')
+            user_json = jsonify(user.to_json())
+            user_json.set_cookie(session_name, session_id)
+            return user_json
