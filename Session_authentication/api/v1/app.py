@@ -19,7 +19,7 @@ auth = None
 auth_type = getenv("AUTH_TYPE")
 if auth_type == "session_auth":
     auth = SessionAuth()
-if auth_type == "basic_auth":
+elif auth_type == "basic_auth":
     auth = BasicAuth()
 else:
     auth = Auth()
@@ -68,7 +68,7 @@ def before_request() -> None:
             auth.session_cookie(request) is None:
         abort(401)
     request.current_user = auth.current_user(request)
-    if auth.current_user(request) is None:
+    if request.current_user is None:
         abort(403)
 
 
