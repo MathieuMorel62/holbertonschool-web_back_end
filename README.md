@@ -21,5 +21,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Basic Authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Basic_authentication): This project aims to implement a basic authentication system in an API. It includes the creation of authentication classes, error management, the use of Base64 for encoding authentication information, and securing API routes. This project provides an in-depth understanding of the authentication mechanism in web applications.
 
+- [**Session Authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication): This project builds on the basic authentication system by adding session authentication. It includes the creation of a session authentication class, the use of cookies to store session information, and the implementation of a session expiration policy.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
