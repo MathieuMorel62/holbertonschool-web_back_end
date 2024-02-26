@@ -2,6 +2,7 @@
 """ User authentication service """
 
 import bcrypt
+import uuid
 from user import User
 from db import DB
 from sqlalchemy.orm.exc import NoResultFound
@@ -36,3 +37,7 @@ class Auth:
                 password.encode('utf-8'), user.hashed_password)
         except NoResultFound:
             return False
+
+    def _generate_uuid(self) -> str:
+        """ Generates a UUID """
+        return str(uuid.uuid4())
