@@ -26,7 +26,8 @@ class DB:
         return self.__session
 
     def add_user(self, email: str, hashed_password: str) -> User:
-        """Add a new user to the database.
+        """
+        Add a new user to the database.
 
         Args:
             email (str): The email address of the user.
