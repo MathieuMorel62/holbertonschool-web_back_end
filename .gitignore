@@ -1,6 +1,6 @@
 # Main files
 *-main.py
-main.py
+personal_data/main.py
 main_*.py
 
 # caches
