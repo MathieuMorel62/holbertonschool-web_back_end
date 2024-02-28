@@ -23,5 +23,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Session Authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication): This project builds on the basic authentication system by adding session authentication. It includes the creation of a session authentication class, the use of cookies to store session information, and the implementation of a session expiration policy.
 
+- [**User Authentication Service**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/user_authentication_service): This project implements a complete authentication service using Python, Flask, SQLAlchemy, and bcrypt. It includes features such as user modeling, session and token management, integration with Flask, and advanced security features for a robust authentication system.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
