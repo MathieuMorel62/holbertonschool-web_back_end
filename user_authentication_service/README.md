@@ -1,4 +1,6 @@
-# User Authentication Service
+# <p align="center">User Authentication Service</p>
+
+![user](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/5e27c207-1b2f-427c-93b2-dba4af11baba)
 
 ## Description
 This project implements a complete authentication service using Python, Flask, SQLAlchemy and bcrypt. It includes features such as user modeling, session and token management, integration with Flask, and advanced security features for a robust authentication system.
