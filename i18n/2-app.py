@@ -18,11 +18,13 @@ babel = Babel(app)
 
 
 def get_locale():
+    """ Get locale """
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
 @app.route('/')
 def index():
+    """ Index"""
     return render_template('2-index.html')
 
 
