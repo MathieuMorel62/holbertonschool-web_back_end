@@ -20,13 +20,13 @@ babel.init_app(app)
 
 
 @babel.localeselector
-def get_locale():
+def get_locale() -> str:
     """ Get locale """
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
 @app.route('/', methods=['GET'], strict_slashes=False)
-def index():
+def index() -> str:
     """ Index"""
     return render_template('3-index.html')
 
