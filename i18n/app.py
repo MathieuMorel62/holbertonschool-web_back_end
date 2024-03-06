@@ -45,17 +45,17 @@ def before_request():
     timezone = get_timezone()
     print(timezone)
     timezone = pytz.timezone(timezone)
-    now = datetime.datetime.now(timezone)
-    zone = now.astimezone(timezone)
+    current_time = datetime.datetime.now(timezone)
+    formatted_time = current_time.astimezone(timezone)
     if get_locale() == "fr":
-        fmt = '%d-%m-%Y %H:%M:%S'
+        time_format = '%d-%m-%Y %H:%M:%S'
     else:
-        fmt = '%m-%d-%Y %I:%M:%S %p'
-    zone = zone.strftime(fmt)
-    g.current_time = zone
+        time_format = '%m-%d-%Y %I:%M:%S %p'
+    formatted_time = formatted_time.strftime(time_format)
+    g.current_time = formatted_time
 
 
-
+@babel.localeselector
 def get_locale():
     """ Get locale from URL parameter, user settings, or request header """
     # Locale from URL parameters
@@ -73,10 +73,10 @@ def get_locale():
     # Locale from request header
     return request.accept_languages.best_match(app.config["LANGUAGES"])
 
-babel.init_app(app, locale_selector=get_locale)
+# babel.init_app(app, locale_selector=get_locale)
 
 
-
+@babel.timezoneselector
 def get_timezone() -> str:
     """define the best timezone"""
     timezone_str = request.args.get('timezone')
