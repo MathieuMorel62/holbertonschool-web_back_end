@@ -27,5 +27,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Unittests And Integration Tests**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Unittests_and_integration_tests): This project focuses on unit testing and integration testing in software development. It aims to teach good testing practices, using Python as the main language. The project aims to teach how to differentiate between unit tests and integration tests, how to use common test models such as mocking and parameterisation, and how to implement effective tests to ensure code quality.
 
+- [**i18n**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/i18n): The i18n project is a multilingual web application developed as part of a web programming project. The main objective is to create a Flask application capable of managing several languages, with an emphasis on internationalization and localization. The project involves the use of Babel for the management of translations and the personalization of content according to the user's language.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
