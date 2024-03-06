@@ -28,14 +28,19 @@ users = {
 @babel.localeselector
 def get_locale():
     """ Get locale from request or user preferences """
+    # Locale from URL parameters
     locale = request.args.get("locale")
     if locale and locale in app.config["LANGUAGES"]:
         return locale
+
+    # Locale from user settings
     user = getattr(g, 'user', None)
     if user is not None:
         user_locale = user.get('locale')
         if user_locale and user_locale in app.config["LANGUAGES"]:
             return user_locale
+
+    # Locale from request header
     return request.accept_languages.best_match(app.config["LANGUAGES"])
 
 # babel.init_app(app, locale_selector=get_locale)
