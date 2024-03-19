@@ -29,8 +29,10 @@ class Cache:
 
     def get_str(self, key: str) -> Optional[str]:
         """ Get a string from Redis """
-        return self.get(key, fn=lambda x: x.decode('utf-8'))
+        value = self.get(key, fn=lambda x: x.decode('utf-8'))
+        return value
 
     def get_int(self, key: str) -> Optional[int]:
         """ Get an int from Redis """
-        return self.get(key, fn=int)
+        value = self.get(key, fn=int)
+        return value
