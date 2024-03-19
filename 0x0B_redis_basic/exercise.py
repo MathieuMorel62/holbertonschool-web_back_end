@@ -33,4 +33,4 @@ class Cache:
 
     def get_int(self, key: str) -> Optional[int]:
         """ Get an int from Redis """
-        return self.get(key, fn=int)
+        return self.get(key, fn=lambda x: int(x.decode('utf-8')))
