@@ -65,18 +65,17 @@ class Cache:
         value = self.get(key, fn=int)
         return value
 
-    def replay(self):
-        """ Replay the history of calls to the store method """
-        call_count = method_calls = self._redis.get(
-            self.store.__qualname__).decode('utf-8')
+    def replay(method: Callable):
+        """ Display the history of calls of a particular function. """
+        qualified_name = method.__qualname__
+        redis_instance = method.__self__._redis
 
-        input_key = f"{self.store.__qualname__}:inputs"
-        output_key = f"{self.store.__qualname__}:outputs"
+        inputs = redis_instance.lrange(f"{qualified_name}:inputs", 0, -1)
+        outputs = redis_instance.lrange(f"{qualified_name}:outputs", 0, -1)
 
-        input_list = self._redis.lrange(input_key, 0, -1)
-        output_list = self._redis.lrange(output_key, 0, -1)
+        print(f"{qualified_name} was called {len(inputs)} times:")
 
-        print(f"{call_count} was called {method_calls} times:")
-        for i, o in zip(input_list, output_list):
-            print(f"{self.store.__qualname__}(*{i.decode('utf-8')}) \
-                -> {o.decode('utf-8')}")
+        for input_, output in zip(inputs, outputs):
+            input_key = input_.decode('utf-8')
+            output_key = output.decode('utf-8')
+            print(f"{qualified_name}(*{input_key}) -> {output_key}")
