@@ -19,9 +19,9 @@ def cache_url(method: Callable) -> Callable:
         cached = redis_client.get(f"cached:{url}")
         if cached:
             return cached.decode('utf-8')
-        html = method(url)
-        redis_client.setex(f"cached:{url}", 10, html)
-        return html
+        result = method(url)
+        redis_client.setex(f"cached:{url}", 10, result)
+        return result
     return wrapper
 
 
