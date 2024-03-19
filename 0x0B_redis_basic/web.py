@@ -6,40 +6,29 @@ import redis
 from typing import Callable
 from functools import wraps
 
-
 redis_client = redis.Redis()
 
 
-def count_requests(method: Callable) -> Callable:
-    """ Decorator to count the number of requests to a URL """
+def cache_and_count(method: Callable) -> Callable:
+    """
+    Decorator to count the number of requests to a URL
+    """
+
     @wraps(method)
-    def wrapper(url: str) -> str:
-        """ Wrapper function """
-        count_key = f"count:{url}"
+    def wrapper(*args, **kwargs):
+        """
+        Wrapper function
+        """
+        count_key = "count:{}".format(*args)
+        cached_key = "cached:{}".format(*args)
         redis_client.incr(count_key)
-        return method(url)
+        result = method(*args)
+        redis_client.setex(cached_key, 10, result)
+        return result
     return wrapper
 
 
-def cache_response(method: Callable) -> Callable:
-    """ Decorator to cache the answer """
-    @wraps(method)
-    def wrapper(url: str) -> str:
-        """ Wrapper function """
-        cache_key = f"cached:{url}"
-        cached = redis_client.get(cache_key)
-
-        if cached:
-            return cached.decode('utf-8')
-
-        response = method(url)
-        redis_client.setex(cache_key, 10, response)
-        return response
-    return wrapper
-
-
-@count_requests
-@cache_response
+@cache_and_count
 def get_page(url: str) -> str:
     """ Retrieves HTML content from a URL """
     response = requests.get(url)
