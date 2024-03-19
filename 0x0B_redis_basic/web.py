@@ -19,9 +19,15 @@ def cache_url(method: Callable) -> Callable:
         cached = redis_client.get(f"cached:{url}")
         if cached:
             return cached.decode('utf-8')
-        result = method(url)
-        redis_client.setex(f"cached:{url}", 10, result)
-        return result
+        
+        try:
+            result = method(url)
+            if result:
+                redis_client.setex(f"cached:{url}", 10, result.encode('utf-8'))
+            return result
+        except requests.exceptions.RequestException as e:
+            print(f"Request failed: {e}")
+            return "An error occurred while fetching the URL"
     return wrapper
 
 
@@ -29,4 +35,7 @@ def cache_url(method: Callable) -> Callable:
 def get_page(url: str) -> str:
     """ Get page """
     response = requests.get(url)
-    return response.text
+    if response.status_code == 200:
+        return response.text
+    else:
+        return f"Error: HTTPStatus {response.status_code}"
