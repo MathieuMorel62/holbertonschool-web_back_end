@@ -2,6 +2,7 @@
 *-main.py
 personal_data/main.py
 main_*.py
+main.py
 
 # caches
 .mypy_cache
