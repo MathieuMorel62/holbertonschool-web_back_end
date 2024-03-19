@@ -32,6 +32,26 @@ def count_calls(method: Callable) -> Callable:
     return wrapper
 
 
+def replay(method: Callable) -> None:
+    """ Display the history of calls of a particular function """
+    r = method.__self__._redis
+    method_name = method.__qualname__
+    count = r.get(method_name).decode('utf-8')
+
+    print(f"{method_name} was called {count} times:")
+
+    inputs = f"{method_name}:inputs"
+    outputs = f"{method_name}:outputs"
+
+    input_list = r.lrange(inputs, 0, -1)
+    output_list = r.lrange(outputs, 0, -1)
+
+    for i, o in zip(input_list, output_list):
+        i_str = i.decode('utf-8')
+        o_str = o.decode('utf-8')
+        print(f"{method_name}(*{i_str}) -> {o_str}")
+
+
 class Cache:
     """ Cache class """
     def __init__(self):
@@ -64,27 +84,3 @@ class Cache:
         """ Get an int from Redis """
         value = self.get(key, fn=int)
         return value
-
-    def replay(method: Callable):
-        """ Display the history of calls of a particular method. """
-        redis_instance = method.__self__._redis
-        qualified_name = method.__qualname__
-
-        # Getting the number of times the method was called
-        calls_count = redis_instance.get(qualified_name)
-        if calls_count is not None:
-            calls_count = calls_count.decode('utf-8')
-
-        inputs_key = f"{qualified_name}:inputs"
-        outputs_key = f"{qualified_name}:outputs"
-
-        # Getting inputs and outputs
-        inputs = redis_instance.lrange(inputs_key, 0, -1)
-        outputs = redis_instance.lrange(outputs_key, 0, -1)
-
-        print(f"{qualified_name} was called {calls_count} times:")
-
-        for i, (input_, output) in enumerate(zip(inputs, outputs)):
-            input_str = input_.decode("utf-8")
-            output_str = output.decode("utf-8")
-            print(f"{qualified_name}(*{input_str}) -> {output_str}")
