@@ -1,41 +1,38 @@
 #!/usr/bin/env python3
 """ Redis exercise """
 
-import redis
 import requests
+import time
 from functools import wraps
-from typing import Callable
+from typing import Dict
 
 
-redis_client = redis.Redis()
+cache: Dict[str, str] = {}
 
 
-def cache_url(method: Callable) -> Callable:
-    """ Cache wrapper """
-    @wraps(method)
-    def wrapper(url) -> str:
-        """ Wrapper function """
-        redis_client.incr(f"count:{url}")
-        cached = redis_client.get(f"cached:{url}")
-        if cached:
-            return cached.decode('utf-8')
-        
-        try:
-            result = method(url)
-            if result:
-                redis_client.setex(f"cached:{url}", 10, result.encode('utf-8'))
-            return result
-        except requests.exceptions.RequestException as e:
-            print(f"Request failed: {e}")
-            return "An error occurred while fetching the URL"
-    return wrapper
-
-
-@cache_url
 def get_page(url: str) -> str:
-    """ Get page """
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.text
+    if url in cache:
+        print(f"Retrieving from cache: {url}")
+        return cache[url]
     else:
-        return f"Error: HTTPStatus {response.status_code}"
+        print(f"Retrieving from web: {url}")
+        response = requests.get(url)
+        result = response.text
+        cache[url] = result
+        return result
+
+def cache_with_expiration(expiration: int):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            url = args[0]
+            key = f"count:{url}"
+            if key in cache:
+                count, timestamp = cache[key]
+                if time.time() - timestamp > expiration:
+                    result = func(*args, **kwargs)
+                    cache[key] = (count+1, time.time())
+                    return result
+                else:
+                    cache[key] = (count+1, timestamp)
+                    return
