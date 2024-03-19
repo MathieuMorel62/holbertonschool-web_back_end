@@ -33,7 +33,7 @@ def cache_response(method: Callable) -> Callable:
             return cached.decode('utf-8')
 
         response = method(url)
-        redis_client.setex(cache_key, 10, response)
+        redis_client.setex(cache_key, 11, response)
         return response
     return wrapper
 
