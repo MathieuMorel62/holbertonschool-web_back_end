@@ -70,14 +70,21 @@ class Cache:
         redis_instance = method.__self__._redis
         qualified_name = method.__qualname__
 
-        num_calls = int(redis_instance.get(qualified_name) or 0)
+        # Getting the number of times the method was called
+        calls_count = redis_instance.get(qualified_name)
+        if calls_count is not None:
+            calls_count = calls_count.decode('utf-8')
 
-        print(f"{qualified_name} was called {num_calls} times:")
+        inputs_key = f"{qualified_name}:inputs"
+        outputs_key = f"{qualified_name}:outputs"
 
-        inputs = redis_instance.lrange(f"{qualified_name}:inputs", 0, -1)
-        outputs = redis_instance.lrange(f"{qualified_name}:outputs", 0, -1)
+        # Getting inputs and outputs
+        inputs = redis_instance.lrange(inputs_key, 0, -1)
+        outputs = redis_instance.lrange(outputs_key, 0, -1)
 
-        for input_, output in zip(inputs, outputs):
+        print(f"{qualified_name} was called {calls_count} times:")
+
+        for i, (input_, output) in enumerate(zip(inputs, outputs)):
             input_str = input_.decode("utf-8")
             output_str = output.decode("utf-8")
             print(f"{qualified_name}(*{input_str}) -> {output_str}")
