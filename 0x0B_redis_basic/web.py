@@ -3,33 +3,34 @@
 
 import requests
 import redis
+from typing import Callable
 from functools import wraps
 
 
 redis_client = redis.Redis()
 
 
-def count_requests(func):
+def count_requests(method: Callable) -> Callable:
     """ Decorator to count the number of requests to a URL """
-    @wraps(func)
-    def wrapper(url):
+    @wraps(method)
+    def wrapper(url: str) -> str:
         count_key = f"count:{url}"
         redis_client.incr(count_key)
-        return func(url)
+        return method(url)
     return wrapper
 
 
-def cache_response(func):
+def cache_response(method: Callable) -> Callable:
     """ Decorator to cache the answer """
-    @wraps(func)
-    def wrapper(url):
+    @wraps(method)
+    def wrapper(url: str) -> str:
         cache_key = f"cached:{url}"
         cached = redis_client.get(cache_key)
 
         if cached:
             return cached.decode('utf-8')
 
-        response = func(url)
+        response = method(url)
         redis_client.setex(cache_key, 10, response)
         return response
     return wrapper
