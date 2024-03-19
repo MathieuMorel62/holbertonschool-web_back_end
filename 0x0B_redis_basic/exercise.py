@@ -20,6 +20,7 @@ def call_history(method: Callable) -> Callable:
         return result
     return wrapper
 
+
 def count_calls(method: Callable) -> Callable:
     """ Decorator to count how many times a method is called """
     @wraps(method)
@@ -63,3 +64,19 @@ class Cache:
         """ Get an int from Redis """
         value = self.get(key, fn=int)
         return value
+
+    def replay(self):
+        """ Replay the history of calls to the store method """
+        call_count = method_calls = self._redis.get(
+            self.store.__qualname__).decode('utf-8')
+
+        input_key = f"{self.store.__qualname__}:inputs"
+        output_key = f"{self.store.__qualname__}:outputs"
+
+        input_list = self._redis.lrange(input_key, 0, -1)
+        output_list = self._redis.lrange(output_key, 0, -1)
+
+        print(f"{call_count} was called {method_calls} times:")
+        for i, o in zip(input_list, output_list):
+            print(f"{self.store.__qualname__}(*{i.decode('utf-8')}) \
+                -> {o.decode('utf-8')}")
