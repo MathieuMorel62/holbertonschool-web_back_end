@@ -7,10 +7,9 @@ import redis
 
 redis_client = redis.Redis()
 
-
 def get_page(url: str) -> str:
     """
-    Get a page with caching and counting
+    Get a page with caching and counting functionality.
     """
     cached_key = f"cached:{url}"
     count_key = f"count:{url}"
