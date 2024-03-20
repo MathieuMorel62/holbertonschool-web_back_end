@@ -16,8 +16,8 @@ __pycache__
 main.sql
 tmp_res
 metal_bands.sql
-4-init.sql
-4-main.sql
+*-init.sql
+*-main.sql
 
 # User files
 .db_User.json
