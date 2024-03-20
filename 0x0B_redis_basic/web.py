@@ -23,13 +23,14 @@ def cache_and_count(method: Callable) -> Callable:
         cached_key = f"cached:{url}"
         count_key = f"count:{url}"
 
+        redis_client.incr(count_key)
+
         cached_response = redis_client.get(cached_key)
         if cached_response:
             return cached_response.decode()
 
         response = method(url)
         redis_client.setex(cached_key, 10, response)
-        redis_client.incr(count_key)
         return response
     return wrapper
 
