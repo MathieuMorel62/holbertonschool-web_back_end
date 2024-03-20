@@ -3,6 +3,7 @@
 
 import requests
 import redis
+import time
 from typing import Callable
 from functools import wraps
 
@@ -11,25 +12,32 @@ redis_client = redis.Redis()
 
 def cache_and_count(method: Callable) -> Callable:
     """
-    Decorator to count the number of requests to a URL
+    Decorator to store the history of inputs and outputs
     """
 
     @wraps(method)
-    def wrapper(*args, **kwargs):
+    def wrapper(url: str) -> str:
         """
         Wrapper function
         """
-        count_key = "count:{}".format(*args)
-        cached_key = "cached:{}".format(*args)
+        cached_key = f"cached:{url}"
+        count_key = f"count:{url}"
+
+        cached_response = redis_client.get(cached_key)
+        if cached_response:
+            return cached_response.decode()
+
+        response = method(url)
+        redis_client.setex(cached_key, 10, response)
         redis_client.incr(count_key)
-        result = method(*args)
-        redis_client.setex(cached_key, 10, result)
-        return result
+        return response
     return wrapper
 
 
 @cache_and_count
 def get_page(url: str) -> str:
-    """ Retrieves HTML content from a URL """
+    """
+    Get a page
+    """
     response = requests.get(url)
     return response.text
