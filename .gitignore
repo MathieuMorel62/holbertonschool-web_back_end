@@ -16,6 +16,7 @@ __pycache__
 main.sql
 tmp_res
 metal_bands.sql
+names.sql
 *-init.sql
 *-main.sql
 
