@@ -1,3 +1,4 @@
+-- Set the valid_email field to 0 if the email field is updated
 DROP TRIGGER IF EXISTS reset_valid_email;
 DELIMITER //
 CREATE TRIGGER reset_valid_email
