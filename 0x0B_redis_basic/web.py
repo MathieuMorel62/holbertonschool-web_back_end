@@ -9,9 +9,11 @@ redis_client = redis.Redis()
 
 
 def get_page(url: str) -> str:
-    """Get a page and cache it for 10 seconds"""
-    count_key = f"count:{url}"
+    """
+    Get a page with caching and counting
+    """
     cached_key = f"cached:{url}"
+    count_key = f"count:{url}"
 
     redis_client.incr(count_key)
 
@@ -20,5 +22,8 @@ def get_page(url: str) -> str:
         return cached_response.decode()
 
     response = requests.get(url)
-    redis_client.setex(cached_key, 10, response.text)
-    return response.text
+    page_content = response.text
+
+    redis_client.setex(cached_key, 10, page_content)
+
+    return page_content
