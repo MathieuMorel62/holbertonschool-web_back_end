@@ -29,5 +29,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**i18n**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/i18n): The i18n project is a multilingual web application developed as part of a web programming project. The main objective is to create a Flask application capable of managing several languages, with an emphasis on internationalization and localization. The project involves the use of Babel for the management of translations and the personalization of content according to the user's language.
 
+- [**MySQL Advanced**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/MySQL_Advanced): The MySQL Advanced project is an in-depth exploration of the advanced features of MySQL. This project highlights concepts such as creating tables with constraints, optimizing queries by adding indexes, and implementing stored procedures, functions, views and triggers in MySQL. The main objective is to provide an in-depth understanding of these advanced aspects and to improve MySQL database management skills.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
