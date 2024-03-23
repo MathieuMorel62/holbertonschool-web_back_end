@@ -1,6 +1,6 @@
-# <p align="center">MySQL advanced</p>
+# <p align="center">MySQL Advanced</p>
 
-![Image du projet MySQL advanced](lien_vers_l'image)
+![mysql](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/7fe07492-a84b-48d3-83df-2347148b7fcc)
 
 ## 📝 Description
 The **MySQL advanced** project is an in-depth exploration of the advanced features of MySQL. This project highlights concepts such as creating tables with constraints, optimizing queries by adding indexes, and implementing stored procedures, functions, views and triggers in MySQL. The main objective is to provide an in-depth understanding of these advanced aspects and to improve MySQL database management skills.
