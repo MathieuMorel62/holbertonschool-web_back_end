@@ -19,6 +19,7 @@ metal_bands.sql
 names.sql
 *-init.sql
 *-main.sql
+dump
 
 # User files
 .db_User.json
