@@ -1,5 +1,7 @@
 # <p align="center">ES6 Promise</p>
 
+![es6](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/52dd5ced-41bb-479b-8caf-404080388ea5)
+
 ## 📝 Description
 This project, entitled "ES6 Promises", is a set of practical exercises designed to deepen the understanding and application of the Promises in ES6 JavaScript. It aims to educate about the use of the methods `then`, `resolve`, `catch`, the `await` operator, and the creation of `async` functions. This project is essential for developers looking to master asynchronous operations in JavaScript.
 
