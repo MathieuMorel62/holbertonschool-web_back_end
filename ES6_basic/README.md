@@ -1,4 +1,6 @@
-# <p align='center'>ES6 Basic</p>
+# <p align='center'>ES6 Basics</p>
+
+![ES6](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/5410e72b-6d8e-4ae1-b7ef-d9868479ac08)
 
 ## 📝 Description
 The **ES6 Basics** project is an in-depth exploration of the features of ECMAScript 6, offering an overview of the new features and improvements made to the JavaScript language. This project covers key concepts such as const and let variables, arrow functions, default settings, spread and rest operators, as well as new methods for strings and objects.
