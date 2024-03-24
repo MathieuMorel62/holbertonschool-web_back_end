@@ -33,5 +33,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**NoSQL**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/NoSQL): The NoSQL project is designed to provide a thorough and practical understanding of NoSQL databases. It covers the fundamental concepts of NoSQL, the differences from traditional SQL databases, and examples of implementation using MongoDB. This project allows users to master basic operations such as inserting, updating, and deleting data, as well as complex queries and data aggregation.
 
+- [**ES6 Basics**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_basic): The ES6 Basics project is an in-depth exploration of the features of ECMAScript 6, offering an overview of the new features and improvements made to the JavaScript language. This project covers key concepts such as const and let variables, arrow functions, default settings, spread and rest operators, as well as new methods for strings and objects.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
