@@ -31,5 +31,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**MySQL Advanced**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/MySQL_Advanced): The MySQL Advanced project is an in-depth exploration of the advanced features of MySQL. This project highlights concepts such as creating tables with constraints, optimizing queries by adding indexes, and implementing stored procedures, functions, views and triggers in MySQL. The main objective is to provide an in-depth understanding of these advanced aspects and to improve MySQL database management skills.
 
+- [**NoSQL**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/NoSQL): The NoSQL project is designed to provide a thorough and practical understanding of NoSQL databases. It covers the fundamental concepts of NoSQL, the differences from traditional SQL databases, and examples of implementation using MongoDB. This project allows users to master basic operations such as inserting, updating, and deleting data, as well as complex queries and data aggregation.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
