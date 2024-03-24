@@ -35,5 +35,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**ES6 Basics**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_basic): The ES6 Basics project is an in-depth exploration of the features of ECMAScript 6, offering an overview of the new features and improvements made to the JavaScript language. This project covers key concepts such as const and let variables, arrow functions, default settings, spread and rest operators, as well as new methods for strings and objects.
 
+- [**ES6 Promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/) The ES6 Promises project is designed to provide a comprehensive understanding of promises in JavaScript. It covers the basics of promises, including creating, resolving, and rejecting promises, as well as chaining promises and handling errors. This project aims to help users master the use of promises in asynchronous JavaScript programming.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
