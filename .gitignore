@@ -33,3 +33,6 @@ package.json
 
 # Linter
 .eslintrc.cjs
+.eslintrc.js
+babel.config.js
+utils.js
