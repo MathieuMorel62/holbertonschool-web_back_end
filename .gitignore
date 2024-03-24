@@ -4,6 +4,7 @@ personal_data/main.py
 main_*.py
 main.py
 *-main.js
+*-main_*.js
 
 # caches
 .mypy_cache
