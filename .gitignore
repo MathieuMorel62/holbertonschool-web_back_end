@@ -30,6 +30,7 @@ a.db
 node_modules/
 package-lock.json
 package.json
+database.csv
 
 # Linter
 .eslintrc.cjs
