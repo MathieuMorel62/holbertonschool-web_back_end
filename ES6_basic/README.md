@@ -1,1 +1,80 @@
-# ES6_basic
+# <p align='center'>ES6 Basic</p>
+
+## 📝 Description
+The **ES6 Basics** project is an in-depth exploration of the features of ECMAScript 6, offering an overview of the new features and improvements made to the JavaScript language. This project covers key concepts such as const and let variables, arrow functions, default settings, spread and rest operators, as well as new methods for strings and objects.
+
+## 📚 Resources
+- [ECMAScript 6 - ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)
+- [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [Javascript ES6 — Iterables and Iterators](https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4)
+
+## 🛠️ Technologies and Tools Used
+
+- **JavaScript ES6**: Programming language used to explore new features.
+- **Node.js**: Execution environment to execute JavaScript code outside the browser.
+- **Jest**: Test framework to validate JavaScript code.
+- **Babel**: Transcompiler to write modern JavaScript code and convert it into a version compatible with current browsers.
+- **ESLint**: Linting tool to maintain the quality of the code.
+
+## 📋 Prerequisite
+
+- Node.js version 12.11.x or higher
+- npm (Node Package Manager)
+- Specific configurations listed in the file `package.json`
+
+## 🚀 Installation and Configuration
+
+1. Clone the repository: 
+
+```sh
+git clone https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_basic
+```
+
+2. Install the dependencies: 
+
+```sh
+npm install
+```
+
+3. Run the tests: 
+
+```sh
+npm run test
+```
+
+## 💡 Use
+- Run specific scripts to see the features of ES6 in action.
+- Explore code examples to understand the application of new syntaxes and features.
+
+## ✨ Main Features
+1. **Const and let variables**: Understand the scope and use of new variable declarations.
+2. **Arrow functions**: Concise syntax for writing functions.
+3. **Default settings and spread/rest operators**: Modern techniques for managing function parameters.
+4. **String templates**: Effective use of template literals for strings.
+5. **Object literals**: Simplified syntax for creating objects.
+6. **Destructuring**: Extracting values from arrays and objects.
+7. **Iterables and iterators**: Understanding the concepts of iterables and iterators in ES6.
+
+## 📝 List of Tasks
+
+0. [**Const or let?**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/0-constants.js): Modify the code to use const and let correctly.
+1. [**Block Scope**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/1-block-scoped.js): Use the scope of blocks with new variable declarations.
+2. [**Arrow functions**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/2-arrow.js): Rewrite functions using the arrow function syntax.
+3. [**Parameter defaults**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/3-default-parameter.js): Simplify functions using the default parameters.
+4. [**Rest parameter syntax for functions**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/4-rest-parameter.js): Use the rest parameter syntax to manage function arguments.
+5. [**The wonders of spread syntax**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/5-spread-operator.js): Exploit the spread syntax to combine arrays and strings.
+6. [**Take advantage of template literals**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/6-string-interpolation.js): Use template literals to improve string concatenation.
+7. [**Object property value shorthand syntax**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/7-getBudgetObject.js): Simplify the creation of objects by using the shortened syntax for properties.
+8. [**No need to create empty objects before adding in properties**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/8-getBudgetCurrentYear.js): Use calculated properties to dynamically add properties to objects.
+9. [**ES6 method properties**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/9-getFullBudget.js): Use the syntax of ES6 method properties in objects.
+10. [**For...of Loops**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/10-loops.js): Use the for...of loop to iterate on the elements of an array.
+11. [**Iterator**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/11-createEmployeesObject.js): Create custom objects with iterator methods.
+12. [**Let's create a report object**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/12-createReportObject.js): Build a complex report object.
+13. [**Iterating through report objects**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/100-createIteratorObject.js): Iterate through the properties and values of an object.
+14. [**Iterate through object**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_basic/101-iterateThroughObject.js): Browse objects using iteration to generate formatted strings.
+
+## 📬 Contact
+- Profil LinkedIn: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
