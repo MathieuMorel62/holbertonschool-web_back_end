@@ -30,3 +30,6 @@ a.db
 node_modules/
 package-lock.json
 package.json
+
+# Linter
+.eslintrc.cjs
