@@ -3,6 +3,7 @@
 personal_data/main.py
 main_*.py
 main.py
+*-main.js
 
 # caches
 .mypy_cache
@@ -24,3 +25,8 @@ dump
 # User files
 .db_User.json
 a.db
+
+# Node modules
+node_modules/
+package-lock.json
+package.json
