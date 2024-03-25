@@ -139,12 +139,14 @@ print("outputs: {}".format(outputs))
 
 ## 📝 List of Tasks
 
-0. [**Writing strings to Redis**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py): Implementation of the Cache class for string storage in Redis.
-1. [**Reading from Redis and recovering original type**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py): Methods to read Redis data and retrieve their original type.
-2. [**Incrementing values**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py): System for counting calls to Cache class methods.
-3. [**Storing lists**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py): Storage of input and output histories for a function.
-4. [**Retrieving lists**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py): Retrieving and displaying the call history of a function.
-5. [**Implementing an expiring web cache and tracker**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/web.py): Implementation of an expiring web cache and a URL access tracking system.
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Writing strings to Redis**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py) | Implementation of the Cache class for storing strings in Redis. |
+| 1 | [**Reading from Redis and recovering original type**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py) | Methods to read data from Redis and retrieve their original types. |
+| 2 | [**Incrementing values**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py) | System for incrementing the count of calls to Cache class methods. |
+| 3 | [**Storing lists**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py) | Storage of input and output histories for a particular function. |
+| 4 | [**Retrieving lists**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/exercise.py) | Methods for retrieving and displaying the call history of a function. |
+| 5 | [**Implementing an expiring web cache and tracker**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/0x0B_redis_basic/web.py) | Implementation of an expiring web cache and a system for tracking URL accesses. |
 
 ## 📬 Contact
 
