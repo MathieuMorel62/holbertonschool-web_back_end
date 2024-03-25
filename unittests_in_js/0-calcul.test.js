@@ -19,6 +19,6 @@ describe('calculateNumber', function() {
   }),
   it('Test with a non-numeric value', () => {
     assert.throws(() => calculateNumber("a", 2), Error);
+    assert.throws(() => calculateNumber(2, "b"), Error);
   });
-  
 });
