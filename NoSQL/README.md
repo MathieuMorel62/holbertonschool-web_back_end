@@ -56,22 +56,25 @@ cd NoSQL
 
 ## 📝 List of Tasks
 
-0. [**List all databases**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/0-list_databases): Script to list all databases in MongoDB.
-1. [**Create a database**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/1-use_or_create_database): Script to create or use a specific database.
-2. [**Insert document**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/2-insert): Script to insert a document in the 'school' collection.
-3. [**All documents**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/3-all): Script to list all documents in the 'school' collection.
-4. [**All matches**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/4-match): Script to list all documents with a specific name in the 'school' collection.
-5. [**Count**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/5-count): Script to display the number of documents in the 'school' collection.
-6. [**Update**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/6-update): Script to add a new attribute to a document in the 'school' collection.
-7. [**Delete by match**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/7-delete): Script to delete all documents corresponding to a criterion in the 'school' collection.
-8. [**List all documents in Python**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/8-all.py): Python function to list all documents in a collection.
-9. [**Insert a document in Python**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/9-insert_school.py): Python function to insert a new document into a collection.
-10. [**Change school topics**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/10-update_topics.py): Python function to modify the topics of a school document.
-11. [**Where can I learn Python?**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/11-schools_by_topic.py): Python function to return the list of schools with a specific subject.
-12. [**Log stats**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/12-log_stats.py): Python script providing statistics on Nginx logs stored in MongoDB.
-13. [**Regex filter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/100-find): Script to list all documents whose name begins with 'Holberton' in the 'school' collection.
-14. [**Top students**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/101-students.py): Python function to return all students sorted by average score.
-15. [**Log stats - new version**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/102-log_stats.py): Improvement of the log statistics script with the most present IPs.
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**List all databases**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/0-list_databases) | Script to list all databases in MongoDB. |
+| 1 | [**Create a database**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/1-use_or_create_database) | Script to create or use a specific database. |
+| 2 | [**Insert document**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/2-insert) | Script to insert a document in the 'school' collection. |
+| 3 | [**All documents**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/3-all) | Script to list all documents in the 'school' collection. |
+| 4 | [**All matches**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/4-match) | Script to list all documents with a specific name in the 'school' collection. |
+| 5 | [**Count**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/5-count) | Script to display the number of documents in the 'school' collection. |
+| 6 | [**Update**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/6-update) | Script to add a new attribute to a document in the 'school' collection. |
+| 7 | [**Delete by match**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/7-delete) | Script to delete all documents corresponding to a criterion in the 'school' collection. |
+| 8 | [**List all documents in Python**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/8-all.py) | Python function to list all documents in a collection. |
+| 9 | [**Insert a document in Python**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/9-insert_school.py) | Python function to insert a new document into a collection. |
+| 10 | [**Change school topics**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/10-update_topics.py) | Python function to modify the topics of a school document. |
+| 11 | [**Where can I learn Python?**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/11-schools_by_topic.py) | Python function to return the list of schools with a specific subject. |
+| 12 | [**Log stats**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/12-log_stats.py) | Python script providing statistics on Nginx logs stored in MongoDB. |
+| 13 | [**Regex filter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/100-find) | Script to list all documents whose name begins with 'Holberton' in the 'school' collection. |
+| 14 | [**Top students**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/101-students.py) | Python function to return all students sorted by average score. |
+| 15 | [**Log stats - new version**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/NoSQL/102-log_stats.py) | Improved log statistics script with the most present IPs. |
+
 
 ## 📬 Contact
 - Profil LinkedIn : [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
