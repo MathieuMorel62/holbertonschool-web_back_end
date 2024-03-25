@@ -70,19 +70,22 @@ python3 -m flask run
 - **session_db_auth.py**: Contains the session database logic.
 - **requirements.txt**: Contains the list of dependencies for the project.
 
-## 📝 List of Tasks to be carried out
+## 📝 List of Tasks
 
-0. [**And me and me and me!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication/api/v1): Initial preparation and basic configuration.
-1. [**Empty session**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication/api/v1): Creation of the `SessionAuth` class for session management.
-2. [**Create a session**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication/api/v1/auth): Implementation of the method to create a session.
-3. [**User ID for Session ID**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py): Setting up the method to link a user ID to a session ID.
-4. [**Before request**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/auth.py): Update the `@app.before_request` method in `api/v1/app.py`.
-5. [**New view for Session Authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/app.py): Creation of a new Flask view to manage all session authentication routes.
-6. [**Login and Logout Routes**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py): Implementation of routes for connection and disconnection.
-7. [**Session Expiration**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py): Added an expiration date to the session IDs.
-8. [**Logout**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py): Development of the disconnect functionality.
-9. [**Expiration?**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_exp_auth.py): Added session expiration management.
-10. [**Sessions in database**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_db_auth.py): Storage of sessions in a database for improved persistence.
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**And me and me and me!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication/api/v1) | Initial preparation and basic configuration. |
+| 1 | [**Empty session**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication/api/v1) | Creation of the `SessionAuth` class for session management. |
+| 2 | [**Create a session**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Session_authentication/api/v1/auth) | Implementation of the method to create a session. |
+| 3 | [**User ID for Session ID**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py) | Setting up the method to link a user ID to a session ID. |
+| 4 | [**Before request**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/auth.py) | Update the `@app.before_request` method in `api/v1/app.py`. |
+| 5 | [**New view for Session Authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/app.py) | Creation of a new Flask view to manage all session authentication routes. |
+| 6 | [**Login and Logout Routes**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py) | Implementation of routes for connection and disconnection. |
+| 7 | [**Session Expiration**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py) | Added an expiration date to the session IDs. |
+| 8 | [**Logout**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_auth.py) | Development of the disconnect functionality. |
+| 9 | [**Expiration?**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_exp_auth.py) | Added session expiration management. |
+| 10 | [**Sessions in database**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Session_authentication/api/v1/auth/session_db_auth.py) | Storage of sessions in a database for improved persistence. |
+
 
 ## 📬 Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-913b4a62/)
