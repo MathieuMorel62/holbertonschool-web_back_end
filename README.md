@@ -41,5 +41,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**ES6 Data Manipulation**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_data_manipulation): The ES6 Data Manipulation project focuses on data manipulation using the features of ES6. It explores advanced array manipulation techniques, the use of Typed Arrays, and the implementation of data structures such as Set, Map, and WeakMap. This project is intended to strengthen ES6 skills and to understand in depth the common data operations in web development.
 
+- [**Node JS Basic**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Node_JS_basic): The Node JS Basic project aims to introduce the basics of NodeJS. It covers the execution of JavaScript with NodeJS, the use of NodeJS modules, the creation of HTTP servers with NodeJS and Express, and the organization of complex HTTP servers with Express. Learning objectives include understanding NodeJS modules, managing files and command line arguments, and creating basic and advanced HTTP servers.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
