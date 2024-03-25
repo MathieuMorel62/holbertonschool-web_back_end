@@ -16,5 +16,9 @@ describe('calculateNumber', function() {
   }),
   it('Test sum of negative numbers', () => {
     assert.equal(calculateNumber(-1, -3), -4);
-  })
+  }),
+  it('Test with a non-numeric value', () => {
+    assert.throws(() => calculateNumber("a", 2), Error);
+  });
+  
 });
