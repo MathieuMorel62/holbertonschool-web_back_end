@@ -19,7 +19,6 @@ The **MySQL advanced** project is an in-depth exploration of the advanced featur
 - [CREATE VIEW Statement](https://dev.mysql.com/doc/refman/5.7/en/create-view.html)
 - [Calculate-Weighted-Average](https://www.wikihow.com/Calculate-Weighted-Average)
 
-
 ## 🛠️ Technologies and Tools Used
 - **MySQL 5.7**: Used for the creation and manipulation of databases.
 - **Ubuntu 18.04 LTS**: Operating system on which SQL scripts are executed.
@@ -28,10 +27,13 @@ The **MySQL advanced** project is an in-depth exploration of the advanced featur
 - MySQL version 5.7.30 or higher
 - An Ubuntu 18.04 LTS environment
 
+## 📊 Data Files
+- [metal_bands.sql.zip](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/6/ab2979f058de215f0f2ae5b052739e76d3c02ac5.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240323%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240323T115412Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=43fcda7c28e96dbaf924313829f9c758b9ad6e967ceae6f0496514a4264382bb)
+- [names.sql.zip](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/632/names.sql.zip)
+
 ## 🚀 Installation and Configuration
 1. Install `MySQL 5.7` on `Ubuntu 18.04`.
 2. Configure the database settings according to the needs of the project.
-3. Download Data files [metal_bands.sql.zip](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/6/ab2979f058de215f0f2ae5b052739e76d3c02ac5.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240323%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240323T115412Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=43fcda7c28e96dbaf924313829f9c758b9ad6e967ceae6f0496514a4264382bb) and [names.sql.zip](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/632/names.sql.zip)
 
 ## 💡 Use
 To use this project, launch the SQL scripts provided in a MySQL environment. Make sure you respect the order of the scripts for correct execution.
