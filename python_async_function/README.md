@@ -43,11 +43,14 @@ cd python_async_function
 2. **Asyncio Task Management**: Creation and manipulation of asyncio tasks for executing asynchronous operations.
 
 ## Task List
-0. [**Basics of Async**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/0-basic_async_syntax.py): Learn the basic syntax of async and await.
-1. [**Executing Multiple Coroutines**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/1-concurrent_coroutines.py): Manage the simultaneous execution of multiple coroutines.
-2. [**Measuring Execution Time**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/2-measure_runtime.py): Use the `time` module to measure the execution time of asynchronous tasks.
-3. [**Creating Asyncio Tasks**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/3-tasks.py): Learn to create and manage asyncio tasks.
-4. [**Improving Task Management**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/4-tasks.py): Optimize the management of asynchronous tasks.
+
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Basics of Async**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/0-basic_async_syntax.py) | Learn the basic syntax of async and await. |
+| 1 | [**Executing Multiple Coroutines**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/1-concurrent_coroutines.py) | Manage the simultaneous execution of multiple coroutines. |
+| 2 | [**Measuring Execution Time**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/2-measure_runtime.py) | Use the `time` module to measure the execution time of asynchronous tasks. |
+| 3 | [**Creating Asyncio Tasks**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/3-tasks.py) | Learn to create and manage asyncio tasks. |
+| 4 | [**Improving Task Management**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_function/4-tasks.py) | Optimize the management of asynchronous tasks. |
 
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
