@@ -1,4 +1,4 @@
-// Function that returns the sum of 2 numbers and rounds them
+// Function that performs arithmetic operations
 function calculateNumber(type, a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
     throw new Error('Invalid input');
