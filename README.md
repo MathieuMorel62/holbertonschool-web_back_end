@@ -39,5 +39,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**ES6 Classes**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_classes): The ES6 Classes project is designed to explore and implement advanced concepts of object-oriented programming in ES6 JavaScript. It covers topics such as class definition, addition of methods, use of static methods, inheritance, and metaprogramming techniques.
 
+- [**ES6 Data Manipulation**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_data_manipulation): The ES6 Data Manipulation project focuses on data manipulation using the features of ES6. It explores advanced array manipulation techniques, the use of Typed Arrays, and the implementation of data structures such as Set, Map, and WeakMap. This project is intended to strengthen ES6 skills and to understand in depth the common data operations in web development.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
