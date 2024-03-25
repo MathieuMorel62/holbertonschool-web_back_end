@@ -118,13 +118,15 @@ cd personal_data
 
 ## 📝 Task List
 
-0. [**Regex-ing**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Obfuscation of PII fields in logs.
-1. [**Log formatter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Creation of custom log trainers.
-2. [**Create logger**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Configuration of a logger for log management.
-3. [**Connect to secure database**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Secure connection to a database.
-4. [**Read and filter data**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py): Reading and filtering database data.
-5. [**Encrypting passwords**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/encrypt_password.py): Secure hashing of passwords.
-6. [**Check valid password**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/encrypt_password.py): Validation of hashed passwords.
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Regex-ing**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py) | Obfuscation of PII fields in logs. |
+| 1 | [**Log formatter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py) | Creation of custom log trainers. |
+| 2 | [**Create logger**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py) | Configuration of a logger for log management. |
+| 3 | [**Connect to secure database**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py) | Secure connection to a database. |
+| 4 | [**Read and filter data**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/filtered_logger.py) | Reading and filtering database data. |
+| 5 | [**Encrypting passwords**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/encrypt_password.py) | Secure hashing of passwords. |
+| 6 | [**Check valid password**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/personal_data/encrypt_password.py) | Validation of hashed passwords. |
 
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
