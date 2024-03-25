@@ -52,15 +52,18 @@ pip install Flask-Babel
 
 ## 📝 Task List
 
-0. [**Basic Flask app**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/0-app.py): Creation of a Flask application with a template displaying "Welcome to Holberton" and "Hello world".
-1. [**Basic Babel setup**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/1-app.py): Installation of Babel Flask and configuration of languages and time zones.
-2. [**Get locale from request**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/2-app.py): Creation of a function to determine the local via the languages accepted in the request.
-3. [**Parametrize templates**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/3-app.py): Use of gettext to set up templates and translations into English and French.
-4. [**Force locale with URL parameter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/4-app.py): Implementation of the local modification via the URL parameters.
-5. [**Mock logging in**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/5-app.py): Simulation of the behavior of a user connection system.
-6. [**Use user locale**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/6-app.py): Modification of the get_locale function to use the user's preferred locale.
-7. [**Infer appropriate time zone**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/7-app.py): Creation of a function to determine the time zone from URL parameters or user settings, with UTC by default.
-8. [**Display the current time**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/app.py): Display of the current time on the home page according to the inferred time zone.
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Basic Flask app**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/0-app.py) | Creation of a Flask application with a template displaying "Welcome to Holberton" and "Hello world". |
+| 1 | [**Basic Babel setup**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/1-app.py) | Installation of Babel Flask and configuration of languages and time zones. |
+| 2 | [**Get locale from request**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/2-app.py) | Creation of a function to determine the local via the languages accepted in the request. |
+| 3 | [**Parametrize templates**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/3-app.py) | Use of gettext to set up templates and translations into English and French. |
+| 4 | [**Force locale with URL parameter**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/4-app.py) | Implementation of the local modification via the URL parameters. |
+| 5 | [**Mock logging in**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/5-app.py) | Simulation of the behavior of a user connection system. |
+| 6 | [**Use user locale**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/6-app.py) | Modification of the get_locale function to use the user's preferred locale. |
+| 7 | [**Infer appropriate time zone**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/7-app.py) | Creation of a function to determine the time zone from URL parameters or user settings, with UTC by default. |
+| 8 | [**Display the current time**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/i18n/app.py) | Display of the current time on the home page according to the inferred time zone. |
+
 
 ## 📬 Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
