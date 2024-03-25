@@ -1,5 +1,7 @@
 # <p align="center">ES6 Data Manipulation</p>
 
+![data](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/2f434462-5461-4ff3-9e1d-9d94bbea373a)
+
 ## 📝 Description
 
 This project focuses on data manipulation using the features of ES6. It explores advanced array manipulation techniques, the use of Typed Arrays, and the implementation of data structures such as Set, Map, and WeakMap. This project is intended to strengthen ES6 skills and to understand in depth the common data operations in web development.
