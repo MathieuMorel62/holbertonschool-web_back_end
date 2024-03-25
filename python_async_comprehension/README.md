@@ -46,9 +46,13 @@ cd python_async_comprehension
 3. **Execution Time Measurement**: Understand and optimize execution time for asynchronous operations.
 
 ## Task List
-0. [**Async Generator**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_comprehension/0-async_generator.py): Create an asynchronous generator in Python.
-1. [**Async Comprehensions**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_comprehension/1-async_comprehension.py): Use asynchronous understandings to process data.
-2. [**Run Time for Parallel Comprehensions**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_comprehension/2-measure_runtime.py): Measure and optimize execution time for understandings executed in parallel.
+
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Async Generator**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_comprehension/0-async_generator.py) | Create an asynchronous generator in Python. |
+| 1 | [**Async Comprehensions**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_comprehension/1-async_comprehension.py) | Use asynchronous understandings to process data. |
+| 2 | [**Run Time for Parallel Comprehensions**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/python_async_comprehension/2-measure_runtime.py) | Measure and optimize execution time for understandings executed in parallel. |
+
 
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
