@@ -37,5 +37,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**ES6 Promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/) The ES6 Promises project is designed to provide a comprehensive understanding of promises in JavaScript. It covers the basics of promises, including creating, resolving, and rejecting promises, as well as chaining promises and handling errors. This project aims to help users master the use of promises in asynchronous JavaScript programming.
 
+- [**ES6 Classes**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/ES6_classes): The ES6 Classes project is designed to explore and implement advanced concepts of object-oriented programming in ES6 JavaScript. It covers topics such as class definition, addition of methods, use of static methods, inheritance, and metaprogramming techniques.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
