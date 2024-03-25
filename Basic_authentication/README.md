@@ -65,20 +65,24 @@ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
 - `PUT /api/v1/users/:id`: updates a user based on the ID (JSON parameters: `last_name` and `first_name`).
 
 ## 📝 List of Tasks
-0. [**Simple-basic-API**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Basic_authentication): Creation of a simple API with a user model.
-1. [**Error handler: Unauthorized**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/views/index.py): Error handling for unauthorized requests (401).
-2. [**Error handler: Forbidden**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/views/index.py): Error handling for prohibited requests (403).
-3. [**Auth class**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py): Creation of a class to manage API authentication.
-4. [**Define which routes don't need authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py): Definition of routes that do not require authentication.
-5. [**Request validation!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py): Validation of requests to secure the API.
-6. [**Basic auth**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Creation of a class for basic authentication.
-7. [**Basic - Base64 part**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Management of Base64 encoding in authentication headers.
-8. [**Basic - Base64 decode**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Decodes Base64 values.
-9. [**Basic - User credentials**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Extraction of user credentials from the decoded Base64 value.
-10. [**Basic - User object**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Recovery of the user object from the credentials.
-11. [**Basic - Overload current_user - and BOOM!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Overload of the current_user method to retrieve the user.
-12. [**Basic - Allow password with ":"**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py): Improved method for extracting user credentials, allowing passwords with:.
-13. [**Require auth with stars**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py): Improved the require_auth method to allow the use of * at the end of the excluded paths.
+
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Simple-basic-API**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Basic_authentication) | Creation of a simple API with a user model. |
+| 1 | [**Error handler: Unauthorized**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/views/index.py) | Error handling for unauthorized requests (401). |
+| 2 | [**Error handler: Forbidden**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/views/index.py) | Error handling for prohibited requests (403). |
+| 3 | [**Auth class**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py) | Creation of a class to manage API authentication. |
+| 4 | [**Define which routes don't need authentication**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py) | Definition of routes that do not require authentication. |
+| 5 | [**Request validation!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py) | Validation of requests to secure the API. |
+| 6 | [**Basic auth**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Creation of a class for basic authentication. |
+| 7 | [**Basic - Base64 part**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Management of Base64 encoding in authentication headers. |
+| 8 | [**Basic - Base64 decode**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Decodes Base64 values. |
+| 9 | [**Basic - User credentials**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Extraction of user credentials from the decoded Base64 value. |
+| 10 | [**Basic - User object**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Recovery of the user object from the credentials. |
+| 11 | [**Basic - Overload current_user - and BOOM!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Overload of the current_user method to retrieve the user. |
+| 12 | [**Basic - Allow password with ":"**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/basic_auth.py) | Improved method for extracting user credentials, allowing passwords with:. |
+| 13 | [**Require auth with stars**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/Basic_authentication/api/v1/auth/auth.py) | Improved the require_auth method to allow the use of * at the end of the excluded paths. |
+
 
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
