@@ -49,13 +49,12 @@ cd pagination
 
 ## 📝 List of Tasks
 
-0. [**Simple Helper Function**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/0-simple_helper_function.py): Develop a function to determine the start and end indices for pagination.
-
-1. [**Simple Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/1-simple_pagination.py): Implement basic pagination on the dataset.
-
-2. [**Hypermedia Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/2-hypermedia_pagination.py): Improve pagination with hypermedia metadata.
-
-3. [**Deletion-resilient Hypermedia Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/3-hypermedia_del_pagination.py): Ensure resilient pagination to data deletion.
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Simple Helper Function**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/0-simple_helper_function.py) | Develop a function to determine the start and end indices for pagination. |
+| 1 | [**Simple Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/1-simple_pagination.py) | Implement basic pagination on the dataset. |
+| 2 | [**Hypermedia Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/2-hypermedia_pagination.py) | Improve pagination with hypermedia metadata. |
+| 3 | [**Deletion-resilient Hypermedia Pagination**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/pagination/3-hypermedia_del_pagination.py) | Ensure resilient pagination to data deletion. |
 
 ## 📬 Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
