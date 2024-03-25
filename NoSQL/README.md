@@ -25,9 +25,14 @@ This NoSQL project is designed to provide a thorough and practical understanding
 - Python version 3.7 or higher
 - PyMongo version 3.10 or higher
 
+## 📊 Data Files
+
+- [dump.zip](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2020/6/645541f867bb79ae47b7a80922e9a48604a569b9.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240325%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240325T125449Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=d39a83c55f1f14a790b7b53e7a4d36a0b7ecc1fa0d01319f5e1ad9bceeb053ac)
+
 ## 🚀 Installation and Configuration
 
 1. Install MongoDB: Follow [this guide](https://docs.mongodb.com/manual/installation/).
+
 2. Configure your Python environment and install PyMongo with: 
 
 ```sh
