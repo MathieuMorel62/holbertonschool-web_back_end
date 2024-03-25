@@ -47,12 +47,15 @@ cd caching
 6. **LFUCache**: Cache using the LFU (Least Frequently Used) algorithm.
 
 ## 📝 Task List
-0. [**Basic dictionary**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/0-basic_cache.py): Implement a basic cache with no size limit.
-1. [**FIFO caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/1-fifo_cache.py): Implement a FIFO caching system.
-2. [**LIFO Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/2-lifo_cache.py): Implement a LIFO caching system.
-3. [**LRU Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/3-lru_cache.py): Implement an LRU caching system.
-4. [**MRU Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/4-mru_cache.py): Implement an MRU caching system.
-5. [**LFU Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/100-lfu_cache.py): Implement an LFU caching system.
+
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Basic dictionary**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/0-basic_cache.py) | Implement a basic cache with no size limit. |
+| 1 | [**FIFO caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/1-fifo_cache.py) | Implement a FIFO caching system. |
+| 2 | [**LIFO Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/2-lifo_cache.py) | Implement a LIFO caching system. |
+| 3 | [**LRU Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/3-lru_cache.py) | Implement an LRU caching system. |
+| 4 | [**MRU Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/4-mru_cache.py) | Implement an MRU caching system. |
+| 5 | [**LFU Caching**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/caching/100-lfu_cache.py) | Implement an LFU caching system. |
 
 ## 📬 Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-913b4a62/)
