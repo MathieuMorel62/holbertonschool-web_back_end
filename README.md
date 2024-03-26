@@ -43,5 +43,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Node JS Basic**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/Node_JS_basic): The Node JS Basic project aims to introduce the basics of NodeJS. It covers the execution of JavaScript with NodeJS, the use of NodeJS modules, the creation of HTTP servers with NodeJS and Express, and the organization of complex HTTP servers with Express. Learning objectives include understanding NodeJS modules, managing files and command line arguments, and creating basic and advanced HTTP servers.
 
+- [**Unittests In JS**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/unittests_in_js): The Unittests In JS project is designed to provide a comprehensive understanding of unit testing in JavaScript. It covers the basics of unit testing, including the use of Mocha, Chai and Sinon libraries, the creation of test suites and test cases, and the implementation of assertions and mocks. This project aims to help users master the use of unit tests in JavaScript programming.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
