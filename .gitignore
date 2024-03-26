@@ -37,3 +37,9 @@ database.csv
 .eslintrc.cjs
 .eslintrc.js
 babel.config.js
+
+# Babel
+.babelrc
+
+# redis
+redis-*
