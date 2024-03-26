@@ -197,17 +197,20 @@ npm run test
 - **Jest**: Write and run tests using the Jest framework.
 
 ## 📝 Task List
-0. [**Keep every promise you make and only make promises you can keep**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/0-promise.js): Learn to create promises and understand their importance.
-1. [**Don't make a promise...if you know you can't keep it**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/1-promise.js): Manage the promises and their resolution or rejection according to the conditions.
-2. [**Catch me if you can!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/2-then.js): Management of errors and rejections in promises.
-3. [**Handle multiple successful promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/3-all.js): Work with several promises and manage their collective resolution.
-4. [**Simple promise**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/4-user-promise.js): Create a simple promise returning a specific object.
-5. [**Reject the promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/5-photo-reject.js): Write functions that reject promises with errors.
-6. [**Multiple handle promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/6-final-user.js): Manage several promises and their states with `Promise.all`.
-7. [**Load balancer**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/7-load_balancer.js): Implement a load balancer using promises.
-8. [**Throw an error**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/8-try.js): Manage exceptions by throwing errors under certain conditions.
-9. [**Throw error / try catch**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/9-try.js): Use `try/catch` to manage errors in promises.
-10. [**Await / Async**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/100-await.js): Use the `async` and `await` functions to simplify the processing of asynchronous operations.
+
+| Number | Task | Description |
+| ------ | ---- | ----------- |
+| 0 | [**Keep every promise you make and only make promises you can keep**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/0-promise.js) | Learn to create promises and understand their importance. |
+| 1 | [**Don't make a promise...if you know you can't keep it**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/1-promise.js) | Manage the promises and their resolution or rejection according to the conditions. |
+| 2 | [**Catch me if you can!**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/2-then.js) | Management of errors and rejections in promises. |
+| 3 | [**Handle multiple successful promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/3-all.js) | Work with several promises and manage their collective resolution. |
+| 4 | [**Simple promise**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/4-user-promise.js) | Create a simple promise returning a specific object. |
+| 5 | [**Reject the promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/5-photo-reject.js) | Write functions that reject promises with errors. |
+| 6 | [**Multiple handle promises**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/6-final-user.js) | Manage several promises and their states with `Promise.all`. |
+| 7 | [**Load balancer**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/7-load_balancer.js) | Implement a load balancer using promises. |
+| 8 | [**Throw an error**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/8-try.js) | Manage exceptions by throwing errors under certain conditions. |
+| 9 | [**Throw error / try catch**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/9-try.js) | Use `try/catch` to manage errors in promises. |
+| 10 | [**Await / Async**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/blob/main/ES6_promise/100-await.js) | Use the `async` and `await` functions to simplify the processing of asynchronous operations. |
 
 ## 📬 Contact
 - Profil LinkedIn: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
