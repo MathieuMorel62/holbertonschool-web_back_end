@@ -1,6 +1,8 @@
 # <p align="center">Unittests In JS</p>
 
-📝 Description
+![unittest](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/f73860e8-5087-4a1e-83e8-50df71cbc884)
+
+## 📝 Description
 
 The **Unittests in JS** project is an in-depth exploration of unit tests in JavaScript, using frameworks and tools such as `Mocha`, `Chai`, and `Sinon`. This project aims to teach good practices in unit testing, including how to write effective tests, use **spies**, **stubs**, and **hooks**, and perform integration tests.
 
