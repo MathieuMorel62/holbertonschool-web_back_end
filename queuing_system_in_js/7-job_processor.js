@@ -13,9 +13,7 @@ function sendNotification(phoneNumber, message, job, done) {
 
   console.log(`Sending notification to ${phoneNumber}, with message: ${message}`);
   job.progress(50, 100);
-  setTimeout(() => {
-    done();
-  }, 1000);
+  done();
 }
 
 queue.process('push_notification_code_2', 2, (job, done) => {
