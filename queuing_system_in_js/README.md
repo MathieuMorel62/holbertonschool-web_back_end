@@ -1,5 +1,7 @@
 # <p align="center">Queuing System In JS</p>
 
+![queuing](https://github.com/MathieuMorel62/holbertonschool-web_back_end/assets/113856302/34a3e45a-9dae-4134-b36a-fc2009216cc8)
+
 ## 📝 Description
 This project implements a queuing system using JavaScript and Redis. It is designed to manage tasks in a queue, offering efficient handling of workloads. The system demonstrates the use of Redis as a database and message broker, and includes key features like job creation and processing, progress tracking, and error handling.
 
