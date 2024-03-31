@@ -45,5 +45,7 @@ This GitHub repository is a showcase of my skills and achievements in back-end w
 
 - [**Unittests In JS**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/unittests_in_js): The Unittests In JS project is designed to provide a comprehensive understanding of unit testing in JavaScript. It covers the basics of unit testing, including the use of Mocha, Chai and Sinon libraries, the creation of test suites and test cases, and the implementation of assertions and mocks. This project aims to help users master the use of unit tests in JavaScript programming.
 
+- [**Queuing System In JS**](https://github.com/MathieuMorel62/holbertonschool-web_back_end/tree/main/queuing_system_in_js): This project implements a queuing system using JavaScript and Redis. It is designed to manage tasks in a queue, offering efficient handling of workloads. The system demonstrates the use of Redis as a database and message broker, and includes key features like job creation and processing, progress tracking, and error handling.
+
 ## Contact
 - LinkedIn Profile: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
