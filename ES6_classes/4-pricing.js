@@ -1,34 +1,38 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import Currency from './3-currency';
 
 class Pricing {
-  constructor (amount, currency) {
+  constructor(amount, currency) {
     this._amount = amount;
     this._currency = currency;
   }
 
-  get amount () {
+  // getter and setter from amount
+  get amount() {
     return this._amount;
   }
 
-  set amount (newAmount) {
+  set amount(newAmount) {
     this._amount = newAmount;
   }
 
-  get currency () {
+  // getter and setter from currency
+  get currency() {
     return this._currency;
   }
 
-  set currency (newCurrency) {
+  set currency(newCurrency) {
     this._currency = newCurrency;
   }
 
-  displayFullPrice () {
+  // method
+  displayFullPrice() {
     const { amount, currency } = this;
     return `${amount} ${currency.name} (${currency.code})`;
   }
 
-  static convertPrice (amount, conversionRate) {
+  // static method
+  static convertPrice(amount, conversionRate) {
     return amount * conversionRate;
   }
 }
