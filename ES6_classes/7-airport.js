@@ -1,29 +1,30 @@
-export default class Airport {
+/* 7-airport.js */
+
+class Airport {
   constructor(name, code) {
     this._name = name;
     this._code = code;
   }
 
-  // Getter
   get name() {
     return this._name;
-  }
-
-  get code() {
-    return this._code;
-  }
-
-  // Setter
-  set code(newCode) {
-    this._code = newCode;
   }
 
   set name(newName) {
     this._name = newName;
   }
 
-  // Method
+  get code() {
+    return this._code;
+  }
+
+  set code(newCode) {
+    this._code = newCode;
+  }
+
   toString() {
     return `[object ${this._code}]`;
   }
 }
+
+export default Airport;
